@@ -30,6 +30,8 @@ resource = {
 }
 resources.push(resource);
 
+var jqueryResource = 'http://code.jquery.com/jquery-1.7.1.min.js';
+
 //////////////////////////////////////////
 // Let's the fun happen
 //////////////////////////////////////////
@@ -61,7 +63,7 @@ page.onLoadFinished = function (status) {
 	if (status === "success") {
 
 
-		page.includeJs("http://localhost/jquery.min.js", function () {
+		page.includeJs(jqueryResource, function () {
 
 			loadInProgress = false;
 

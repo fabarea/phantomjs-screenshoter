@@ -8,7 +8,7 @@ screenshot
 
 * Run command
 
-	phantomjs rasterize.js
+	phantomjs rasterizer.js
 
 PhantomJS is a headless WebKit with JavaScript API and can be downloaded from
 http://code.google.com/p/phantomjs/downloads/list
